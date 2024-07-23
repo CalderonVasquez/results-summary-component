@@ -7,9 +7,7 @@
 }
 body {
   line-height: 1.5;
-  font-size: 1.125rem;
   -webkit-font-smoothing: antialiased;
-  font-family: 'Hanken Grotesk', sans-serif;
 }
 img, picture, video, canvas, svg {
   display: block;
@@ -54,6 +52,25 @@ p, h1, h2, h3, h4, h5, h6 {
   --regular: 500;
   --bold: 700;
   --heavy: 800;
+}
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.125rem;
+  height: 100vh;
+  background-color: var(--pale-blue);
+}
+main {
+  display: flex;
+  max-width: 46rem;
+  width: 100%;
+}
+.results {
+  background: var(--gradient-background);
+  width: 50%;
 }
 
 

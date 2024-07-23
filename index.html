@@ -10,30 +10,51 @@
   <title>Frontend Mentor | Results summary component</title>
 </head>
 <body>
-
-  Your Result
-  76
-  of 100
-
-  Great
-  You scored higher than 65% of the people who have taken these tests.
-  
-  Summary
-
-  Reaction
-  80 / 100
-
-  Memory
-  92 / 100
-
-  Verbal
-  61 / 100
-
-  Visual
-  72 / 100
-
-  Continue
-  
+  <main>
+    <section class="results">
+      <h2 class="results-title">Your Result</h2>
+      <div class="results-number-container">
+        <h1 class="results-number-big">76</h1>
+      </div>
+      <h1 class="results-description">Great</h1>
+      <p class="results-description-content">
+        You scored higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+    <section class="summary">
+      <h2 class="summary-title">Summary</h2>
+      <section class="summary">
+        <div class="summary-reaction">
+          <span class="reaction-details">
+            <img src="assets/images/icon-reaction.svg" alt="Reaction icon" class="result-icon">
+            <span class="result-label">Reaction</span>
+            <span class="result-value">80 / 100</span>
+          </span>
+        </div>
+        <div class="summary-memory">
+          <span class="memory-details">
+            <img src="assets/images/icon-memory.svg" alt="Memory icon" class="result-icon">
+            <span class="result-label">Memory</span>
+            <span class="result-value">90 / 100</span>
+          </span>
+        </div>
+        <div class="summary-verbal">
+          <span class="verbal-details">
+            <img src="assets/images/icon-verbal.svg" alt="Verbal icon" class="result-icon">
+            <span class="result-label">Verbal</span>
+            <span class="result-value">70 / 100</span>
+          </span>
+        </div>
+        <div class="summary-visual">
+          <span class="visual-details">
+            <img src="assets/images/icon-visual.svg" alt="Visual icon" class="result-icon">
+            <span class="result-label">Visual</span>
+            <span class="result-value">85 / 100</span>
+          </span>
+        </div>
+      </section>
+    </section>
+  </main>
   <footer>
     <div class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
