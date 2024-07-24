@@ -58,7 +58,7 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  font-family: 'Hanken Grotesk', sans-serif;
+  font-family: 'Hanken Grotesk';
   font-size: 1.125rem;
   height: 100vh;
   background-color: var(--pale-blue);
@@ -67,10 +67,66 @@ main {
   display: flex;
   max-width: 46rem;
   width: 100%;
+  box-shadow: 20px 20px 20px 20px hsl(221, 100%, 96%);
 }
 .results {
-  background: var(--gradient-background);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 1rem;
   width: 50%;
+  padding: 2.375rem 3.375rem 2.875rem 3.375rem;
+  background: var(--gradient-background);
+}
+.results-title{
+  font-size: 1.5rem;
+  margin-bottom: 2.188rem;
+  font-weight: var(--bold);
+  color: var(--light-lavender);
+}
+.results-number-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-bottom: 1.75rem;
+  border-radius: 50%;
+  padding: 3.438rem 3.75rem 2.875rem 3.688rem;
+  background: var(--gradient-circle);
+}
+.results-number-big {
+  font-size: 4.5rem;
+  font-weight: var(--heavy);
+  line-height: 1;
+  color: var(--white);
+}
+.results-number-description {
+  margin-bottom: 2.875rem;
+  font-weight: var(--regular);
+  color: var(--light-lavender);
+}
+.results-description {
+  font-size: 2rem;
+  margin-bottom: 0.875rem;
+  font-weight: var(--bold);
+  color: var(--white);
+}
+.results-description-content {
+  text-align: center;
+  font-weight: var(--regular);
+  color: var(--light-lavender);
+}
+.summary {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-top-right-radius: 2rem;
+  border-bottom-right-radius: 2rem;
+  width: 50%;
+  background-color: var(--white);
 }
 
 
