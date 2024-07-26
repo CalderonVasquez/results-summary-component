@@ -207,7 +207,7 @@ footer {
     color: hsl(228, 45%, 44%); 
 }
 
-/* media querries */
+/* media queries */
 @media (max-width: 675px) {
     main {
     flex-direction: column;
