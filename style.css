@@ -105,9 +105,8 @@ main {
   color: var(--white);
 }
 .results-number-description {
-  margin-bottom: 2.875rem;
   font-weight: var(--regular);
-  color: var(--light-lavender);
+  color: hsl(241, 100%, 89%, 0.60);
 }
 .results-description {
   font-size: 2rem;
@@ -143,7 +142,6 @@ main {
 }
 .reaction-img {
   background-color: hsla(0, 100%, 67%, 0.05);
-
 }
 .img-container {
   display: flex;
@@ -151,7 +149,7 @@ main {
 }
 .reaction-label {
   font-weight: var(--regular);
- color: var(--light-red);
+  color: var(--light-red);
 }
 .memory-img {
   background-color: hsl(39, 100%, 56%, 0.05);
@@ -207,7 +205,7 @@ footer {
     font-size: 11px; text-align: center; 
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: var(--cobalt-blue); 
 }
 
 /* media queries */
@@ -226,6 +224,7 @@ footer {
   }
   .results-title {
     font-size: 1.125rem;
+    margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
   .results-number-container {
@@ -236,6 +235,10 @@ footer {
   }
   .results-number-big {
     font-size: 3.5rem;
+    line-height: 1.25;
+  }
+  .results-number-description {
+    color: hsl(241, 100%, 89%, 0.60);
   }
   .results-description {
     font-size: 1.5rem;
@@ -252,8 +255,16 @@ footer {
   }
   .summary-title {
     font-size: 1.125rem;
+    margin-bottom: 1.5rem;
+  }
+  .summary-labels {
+    font-size: 1rem;
+  }
+  .result-value {
+    font-size: 1rem;
   }
   .btn {
+    margin-top: .25rem;
     padding: 1rem 7.5rem 1.063rem 7.5rem;
     width: 100%;
   }
